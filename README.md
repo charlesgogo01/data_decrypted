@@ -2,14 +2,14 @@
 
 when  a file encrypted by AES256/CTR method and know the IV value，you can use this function do the decrypted.
 
-iv = "12345678abcdefgh"
-masterCryptoKey = "12345678123456781234567812345678"
+
 
 # for example：
 
 
 ```
-
+iv = "12345678abcdefgh"
+masterCryptoKey = "12345678123456781234567812345678"
 
 for fileName in  fileList:
     DecryptedLocalile(masterCryptoKey, iv,
